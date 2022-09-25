@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <h1>Tic Tac Toe</h1>
+    <main id="inputContainer">
+      <div class="inputItem">
+        <label for="player1">Jogador (X): </label>
+        <input type="text" id="player1" placeholder="userName player 1" />
+        <br />
+        <h4>Score: <span id="player1Score">0</span></h4>
+      </div>
+
+      <div class="inputItem">
+        <label for="player2">Jogador (O): </label>
+        <input type="text" id="player2" placeholder="userName player 2" />
+        <br />
+        <h4>Score: <span id="player2Score">0</span></h4>
+      </div>
+    </main>
+
+    <div id="startGameContainer">
+      <button type="button" id="startGame">Começar!!</button>
+    </div>
+
+    <h2></h2>
+
+    <section>
+      <div class="gameContainer">
+        <button class="btnPlay cursorPointer" data-region="0.0"></button>
+        <button class="btnPlay cursorPointer" data-region="0.1"></button>
+        <button class="btnPlay cursorPointer" data-region="0.2"></button>
+        <button class="btnPlay cursorPointer" data-region="1.0"></button>
+        <button class="btnPlay cursorPointer" data-region="1.1"></button>
+        <button class="btnPlay cursorPointer" data-region="1.2"></button>
+        <button class="btnPlay cursorPointer" data-region="2.0"></button>
+        <button class="btnPlay cursorPointer" data-region="2.1"></button>
+        <button class="btnPlay cursorPointer" data-region="2.2"></button>
+      </div>
+    </section>
+
+    <footer>
+      <h3>&copy; Elyas Rodrigues <br> 2022 </h3>
+    </footer>
+  </body>
+</html>
