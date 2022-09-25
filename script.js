@@ -35,6 +35,9 @@ function initializeGame() {
     btn.addEventListener("click", handleGameClick);
     btn.removeAttribute("disabled")
   });
+
+  document.getElementById("player1").setAttribute("disabled", "true")
+  document.getElementById("player2").setAttribute("disabled", "true")
 }
 
 function getWinRegions() {
